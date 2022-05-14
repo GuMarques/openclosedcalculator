@@ -6,6 +6,7 @@ package gto.openclosedcalculator.calculator;
 
 import gto.openclosedcalculator.interfaces.Ioperation;
 import gto.openclosedcalculator.operation.Division;
+import gto.openclosedcalculator.operation.Exponentiation;
 import gto.openclosedcalculator.operation.Multiplication;
 import gto.openclosedcalculator.operation.Subtraction;
 import gto.openclosedcalculator.operation.Sum;
@@ -46,6 +47,9 @@ public class Calculator {
                 break;
             case '*':
                 operation = new Multiplication(this.x, this.y);
+                break;
+            case '^':
+                operation = new Exponentiation(this.x, this.y);
                 break;
         }
         return operation;
