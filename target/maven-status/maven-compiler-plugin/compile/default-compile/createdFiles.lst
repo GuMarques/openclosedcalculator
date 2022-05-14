@@ -1,0 +1,7 @@
+operation\Sum.class
+operation\Subtraction.class
+gto\openclosedcalculator\calculator\Calculator.class
+operation\Division.class
+gto\openclosedcalculator\interfaces\Ioperation.class
+gto\openclosedcalculator\Openclosedcalculator.class
+operation\Multiplication.class
